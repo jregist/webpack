@@ -15,5 +15,5 @@ else {
   });
 }
 
-app.listen(process.ENV.PORT || 3050, () => console.log('Listening on 3050'));
+app.listen(process.env.PORT || 3050, () => console.log('Node app is running on port', app.get('port')));
 

@@ -1,0 +1,101 @@
+2017-06-05T18:35:41.038808+00:00 app[web.1]:     at run (bootstrap_node.js:390:7)
+2017-06-05T18:35:41.038808+00:00 app[web.1]:     at startup (bootstrap_node.js:150:9)
+2017-06-05T18:35:41.038809+00:00 app[web.1]:     at bootstrap_node.js:505:3
+2017-06-05T18:35:41.143131+00:00 heroku[web.1]: Process exited with status 1
+2017-06-05T19:21:44.273686+00:00 heroku[web.1]: State changed from crashed to starting
+2017-06-05T19:21:46.894194+00:00 heroku[web.1]: Starting process with command `node server`
+2017-06-05T19:21:48.369408+00:00 app[web.1]: 
+2017-06-05T19:21:48.369406+00:00 app[web.1]: app.listen(process.ENV.PORT || 3050, () => console.log('Listening on 3050'));
+2017-06-05T19:21:48.369391+00:00 app[web.1]: /app/server.js:18
+2017-06-05T19:21:48.369407+00:00 app[web.1]:                       ^
+2017-06-05T19:21:48.369410+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:579:10)
+2017-06-05T19:21:48.369408+00:00 app[web.1]: TypeError: Cannot read property 'PORT' of undefined
+2017-06-05T19:21:48.369411+00:00 app[web.1]:     at tryModuleLoad (module.js:446:12)
+2017-06-05T19:21:48.369411+00:00 app[web.1]:     at Module.load (module.js:487:32)
+2017-06-05T19:21:48.369409+00:00 app[web.1]:     at Object.<anonymous> (/app/server.js:18:23)
+2017-06-05T19:21:48.369412+00:00 app[web.1]:     at Function.Module._load (module.js:438:3)
+2017-06-05T19:21:48.369413+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-06-05T19:21:48.369410+00:00 app[web.1]:     at Module._compile (module.js:570:32)
+2017-06-05T19:21:48.369413+00:00 app[web.1]:     at run (bootstrap_node.js:390:7)
+2017-06-05T19:21:48.369414+00:00 app[web.1]:     at startup (bootstrap_node.js:150:9)
+2017-06-05T19:21:48.369414+00:00 app[web.1]:     at bootstrap_node.js:505:3
+2017-06-05T19:21:48.490764+00:00 heroku[web.1]: State changed from starting to crashed
+2017-06-05T19:21:48.477516+00:00 heroku[web.1]: Process exited with status 1
+2017-06-05T20:45:28.990782+00:00 heroku[web.1]: State changed from crashed to starting
+2017-06-05T20:45:32.619243+00:00 heroku[web.1]: Starting process with command `node server`
+2017-06-05T20:45:35.736531+00:00 app[web.1]: /app/server.js:18
+2017-06-05T20:45:35.736544+00:00 app[web.1]: app.listen(process.ENV.PORT || 3050, () => console.log('Listening on 3050'));
+2017-06-05T20:45:35.736546+00:00 app[web.1]: 
+2017-06-05T20:45:35.736546+00:00 app[web.1]: TypeError: Cannot read property 'PORT' of undefined
+2017-06-05T20:45:35.736548+00:00 app[web.1]:     at Module._compile (module.js:570:32)
+2017-06-05T20:45:35.736545+00:00 app[web.1]:                       ^
+2017-06-05T20:45:35.736548+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:579:10)
+2017-06-05T20:45:35.736549+00:00 app[web.1]:     at Module.load (module.js:487:32)
+2017-06-05T20:45:35.736549+00:00 app[web.1]:     at tryModuleLoad (module.js:446:12)
+2017-06-05T20:45:35.736547+00:00 app[web.1]:     at Object.<anonymous> (/app/server.js:18:23)
+2017-06-05T20:45:35.736550+00:00 app[web.1]:     at Function.Module._load (module.js:438:3)
+2017-06-05T20:45:35.736550+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-06-05T20:45:35.736551+00:00 app[web.1]:     at startup (bootstrap_node.js:150:9)
+2017-06-05T20:45:35.736552+00:00 app[web.1]:     at bootstrap_node.js:505:3
+2017-06-05T20:45:35.736551+00:00 app[web.1]:     at run (bootstrap_node.js:390:7)
+2017-06-05T20:45:35.870876+00:00 heroku[web.1]: State changed from starting to crashed
+2017-06-05T20:45:35.856693+00:00 heroku[web.1]: Process exited with status 1
+2017-06-05T23:44:18.527610+00:00 heroku[web.1]: State changed from crashed to starting
+2017-06-05T23:44:20.986099+00:00 heroku[web.1]: Starting process with command `node server`
+2017-06-05T23:44:21.904600+00:00 app[web.1]: /app/server.js:18
+2017-06-05T23:44:21.904614+00:00 app[web.1]: app.listen(process.ENV.PORT || 3050, () => console.log('Listening on 3050'));
+2017-06-05T23:44:21.904615+00:00 app[web.1]:                       ^
+2017-06-05T23:44:21.904616+00:00 app[web.1]: 
+2017-06-05T23:44:21.904616+00:00 app[web.1]:     at Object.<anonymous> (/app/server.js:18:23)
+2017-06-05T23:44:21.904617+00:00 app[web.1]:     at Module._compile (module.js:570:32)
+2017-06-05T23:44:21.904616+00:00 app[web.1]: TypeError: Cannot read property 'PORT' of undefined
+2017-06-05T23:44:21.904618+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:579:10)
+2017-06-05T23:44:21.904618+00:00 app[web.1]:     at Module.load (module.js:487:32)
+2017-06-05T23:44:21.904618+00:00 app[web.1]:     at tryModuleLoad (module.js:446:12)
+2017-06-05T23:44:21.904619+00:00 app[web.1]:     at Function.Module._load (module.js:438:3)
+2017-06-05T23:44:21.904619+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-06-05T23:44:21.904619+00:00 app[web.1]:     at run (bootstrap_node.js:390:7)
+2017-06-05T23:44:21.904620+00:00 app[web.1]:     at startup (bootstrap_node.js:150:9)
+2017-06-05T23:44:21.904620+00:00 app[web.1]:     at bootstrap_node.js:505:3
+2017-06-05T23:44:21.963156+00:00 heroku[web.1]: State changed from starting to crashed
+2017-06-05T23:44:21.947817+00:00 heroku[web.1]: Process exited with status 1
+2017-06-06T05:24:43.933112+00:00 heroku[web.1]: State changed from crashed to starting
+2017-06-06T05:24:46.928509+00:00 heroku[web.1]: Starting process with command `node server`
+2017-06-06T05:24:49.140149+00:00 app[web.1]: /app/server.js:18
+2017-06-06T05:24:49.140168+00:00 app[web.1]: app.listen(process.ENV.PORT || 3050, () => console.log('Listening on 3050'));
+2017-06-06T05:24:49.140169+00:00 app[web.1]:                       ^
+2017-06-06T05:24:49.140170+00:00 app[web.1]: 
+2017-06-06T05:24:49.140170+00:00 app[web.1]: TypeError: Cannot read property 'PORT' of undefined
+2017-06-06T05:24:49.140171+00:00 app[web.1]:     at Object.<anonymous> (/app/server.js:18:23)
+2017-06-06T05:24:49.140172+00:00 app[web.1]:     at Module._compile (module.js:570:32)
+2017-06-06T05:24:49.140172+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:579:10)
+2017-06-06T05:24:49.140173+00:00 app[web.1]:     at Module.load (module.js:487:32)
+2017-06-06T05:24:49.140174+00:00 app[web.1]:     at tryModuleLoad (module.js:446:12)
+2017-06-06T05:24:49.140174+00:00 app[web.1]:     at Function.Module._load (module.js:438:3)
+2017-06-06T05:24:49.140175+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-06-06T05:24:49.140175+00:00 app[web.1]:     at run (bootstrap_node.js:390:7)
+2017-06-06T05:24:49.140176+00:00 app[web.1]:     at startup (bootstrap_node.js:150:9)
+2017-06-06T05:24:49.140177+00:00 app[web.1]:     at bootstrap_node.js:505:3
+2017-06-06T05:24:49.238836+00:00 heroku[web.1]: State changed from starting to crashed
+2017-06-06T05:24:49.225894+00:00 heroku[web.1]: Process exited with status 1
+2017-06-06T11:01:17.278786+00:00 heroku[web.1]: State changed from crashed to starting
+2017-06-06T11:01:20.606237+00:00 heroku[web.1]: Starting process with command `node server`
+2017-06-06T11:01:23.355918+00:00 app[web.1]: /app/server.js:18
+2017-06-06T11:01:23.355931+00:00 app[web.1]: app.listen(process.ENV.PORT || 3050, () => console.log('Listening on 3050'));
+2017-06-06T11:01:23.355932+00:00 app[web.1]:                       ^
+2017-06-06T11:01:23.355934+00:00 app[web.1]: TypeError: Cannot read property 'PORT' of undefined
+2017-06-06T11:01:23.355933+00:00 app[web.1]: 
+2017-06-06T11:01:23.355934+00:00 app[web.1]:     at Object.<anonymous> (/app/server.js:18:23)
+2017-06-06T11:01:23.355935+00:00 app[web.1]:     at Module._compile (module.js:570:32)
+2017-06-06T11:01:23.355936+00:00 app[web.1]:     at Module.load (module.js:487:32)
+2017-06-06T11:01:23.355936+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:579:10)
+2017-06-06T11:01:23.355937+00:00 app[web.1]:     at tryModuleLoad (module.js:446:12)
+2017-06-06T11:01:23.355938+00:00 app[web.1]:     at Function.Module._load (module.js:438:3)
+2017-06-06T11:01:23.355938+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-06-06T11:01:23.355939+00:00 app[web.1]:     at run (bootstrap_node.js:390:7)
+2017-06-06T11:01:23.355940+00:00 app[web.1]:     at startup (bootstrap_node.js:150:9)
+2017-06-06T11:01:23.355940+00:00 app[web.1]:     at bootstrap_node.js:505:3
+2017-06-06T11:01:23.462051+00:00 heroku[web.1]: Process exited with status 1
+2017-06-06T11:01:23.471920+00:00 heroku[web.1]: State changed from starting to crashed
+2017-06-06T15:17:04.066076+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=whispering-fortress-27513.herokuapp.com request_id=a8fa8952-7302-45d7-a697-dc9e73b5f8d9 fwd="50.232.179.242" dyno= connect= service= status=503 bytes= protocol=https
+2017-06-06T15:17:04.254187+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=whispering-fortress-27513.herokuapp.com request_id=a86dc6b0-9e1c-4b15-911c-3a465fe78b3c fwd="50.232.179.242" dyno= connect= service= status=503 bytes= protocol=https
