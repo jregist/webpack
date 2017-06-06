@@ -1,11 +1,3 @@
-2017-06-05T18:35:41.038808+00:00 app[web.1]:     at run (bootstrap_node.js:390:7)
-2017-06-05T18:35:41.038808+00:00 app[web.1]:     at startup (bootstrap_node.js:150:9)
-2017-06-05T18:35:41.038809+00:00 app[web.1]:     at bootstrap_node.js:505:3
-2017-06-05T18:35:41.143131+00:00 heroku[web.1]: Process exited with status 1
-2017-06-05T19:21:44.273686+00:00 heroku[web.1]: State changed from crashed to starting
-2017-06-05T19:21:46.894194+00:00 heroku[web.1]: Starting process with command `node server`
-2017-06-05T19:21:48.369408+00:00 app[web.1]: 
-2017-06-05T19:21:48.369406+00:00 app[web.1]: app.listen(process.ENV.PORT || 3050, () => console.log('Listening on 3050'));
 2017-06-05T19:21:48.369391+00:00 app[web.1]: /app/server.js:18
 2017-06-05T19:21:48.369407+00:00 app[web.1]:                       ^
 2017-06-05T19:21:48.369410+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:579:10)
@@ -99,3 +91,11 @@
 2017-06-06T11:01:23.471920+00:00 heroku[web.1]: State changed from starting to crashed
 2017-06-06T15:17:04.066076+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=whispering-fortress-27513.herokuapp.com request_id=a8fa8952-7302-45d7-a697-dc9e73b5f8d9 fwd="50.232.179.242" dyno= connect= service= status=503 bytes= protocol=https
 2017-06-06T15:17:04.254187+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=whispering-fortress-27513.herokuapp.com request_id=a86dc6b0-9e1c-4b15-911c-3a465fe78b3c fwd="50.232.179.242" dyno= connect= service= status=503 bytes= protocol=https
+2017-06-06T15:34:58.000000+00:00 app[api]: Build started by user joel@wishfulthinking.us
+2017-06-06T15:35:13.966382+00:00 app[api]: Release v4 created by user joel@wishfulthinking.us
+2017-06-06T15:35:13.966382+00:00 app[api]: Deploy 79b15555 by user joel@wishfulthinking.us
+2017-06-06T15:35:16.309576+00:00 heroku[web.1]: State changed from crashed to starting
+2017-06-06T15:34:58.000000+00:00 app[api]: Build succeeded
+2017-06-06T15:35:19.385862+00:00 heroku[web.1]: Starting process with command `node server.js`
+2017-06-06T15:35:21.950396+00:00 app[web.1]: Node app is running on port undefined
+2017-06-06T15:35:23.102425+00:00 heroku[web.1]: State changed from starting to up
